@@ -1,0 +1,10 @@
+import type { Metadata } from "next";
+import { BRAND } from "@/content/brand";
+
+export const metadata: Metadata = {
+  title: BRAND.meta.login,
+};
+
+export default function LoginLayout({ children }: { children: React.ReactNode }) {
+  return children;
+}

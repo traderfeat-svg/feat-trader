@@ -1,0 +1,16 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/expire-subscriptions",
+      "schedule": "0 2 * * *"
+    },
+    {
+      "path": "/api/cron/clean-invites",
+      "schedule": "0 */6 * * *"
+    },
+    {
+      "path": "/api/cron/check-payments",
+      "schedule": "0 */4 * * *"
+    }
+  ]
+}
